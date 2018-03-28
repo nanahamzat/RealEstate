@@ -1,0 +1,93 @@
+#logo{
+
+	
+	width: 140px;
+	height: 110px;
+	background-color: #DC143C;
+	color: white;
+	position: absolute;
+	display: inline;
+	padding-top: 10px;
+	/*margin: 20px;*/
+	/*margin-top: -50px;*/
+	/*overflow: scroll;*/
+}
+
+#page{
+	margin-top: -40px;
+	background-image: url('../img/pic1.jpg');
+	background-size: cover;
+	/*background-repeat: no-repeat;*/
+	min-height: 620px;
+	color: white;
+	width: 100%;
+	padding-top: 120px;
+	/*padding-left:110px;*/
+}
+
+
+.fa {
+    padding: 0px;
+    margin: 2px 2px 2px 2px;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white ;
+    
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa fa-facebook {
+    background-color: white;
+    color: white;
+    
+}
+.fa fa-twitter{
+	background: white;
+    color: white;
+}
+.fa fa-google-plus{
+	background-color: white;
+    color: white;
+}
+.fa fa-pinterest{
+background-color: white;
+    color: white;
+}
+.fa fa-rss{
+	background-color: white;
+    color: white;
+}
+
+/*#page img{
+	float: left;
+	display: inline;
+	margin-left: 120px;
+}*/
+
+/*#content{
+	float: left;
+	padding: 40px;
+	color: white;
+}*/
+.carousel-indicators{
+	bottom: -50px;
+}
+.carousel-indicators li{
+	
+	background-color: grey;
+
+}
+.carousel-indicators .active{
+	background-color: #337ab7;
+}
